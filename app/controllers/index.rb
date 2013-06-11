@@ -8,7 +8,6 @@ post '/game/new' do
   game = Game.create
   game.players << player1 << player2
 
-  puts "REDIRECTING TO /PLAY/GAMEID AGAIN"
   redirect "/play/#{game.id}"
 end
 

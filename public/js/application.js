@@ -101,14 +101,14 @@ $(document).ready(function() {
     move_listener();
     win_listener();
 
-    $('#restart').on('click', function () {
-      player1.reset();
-      player2.reset();
-      clear_table();
-      move_listener();
-      win_listener();
+    // $('#restart').on('click', function () {
+    //   player1.reset();
+    //   player2.reset();
+    //   clear_table();
+    //   move_listener();
+    //   win_listener();
       // $(this).hide();
-    });
+    // });
 
   });
 
