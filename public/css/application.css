@@ -21,3 +21,16 @@ th {
 #restart {
   display: none;
 }
+
+#player_names {
+  display: inline-block;
+}
+
+#player_names p {
+  height: 30px;
+  margin: 0;
+}
+
+#racer_table_div {
+  display: inline-block;
+}
