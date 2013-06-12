@@ -26,7 +26,6 @@ $(document).ready(function() {
 
   ConsoleBoard.prototype = {
     render: function(player) {
-      console.log(player);
       console.log(player.name + " : " + player.position);
     },
     renderWinner: function(winner) {
